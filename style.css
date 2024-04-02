@@ -1,0 +1,266 @@
+.navbar{
+    height: 100px;
+    width: 99vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+#nav-options{
+    width: 40%;
+    height: 100%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-options>a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.img{
+    height: 75px;
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:600px) {
+
+    .img{
+        display: none;
+
+    }
+
+    #nav-options{
+        width: 100%;
+    }
+    #nav-options>a{
+        color: black;
+        text-decoration: none;
+        font-size: 11px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    
+}
+
+
+.hero{
+    height: 80vh;
+    width: 99vw;
+    background-image: url(https://wallpapercave.com/wp/wp7846006.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2-px;
+}
+
+
+
+.hero>h1{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+   
+
+
+}
+.hero>h5{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+   
+
+
+}
+
+.hero button{
+    height: 50px;
+  width: 150px;
+  border-radius:30px;
+}
+
+#on{
+    background-color: #d0b200;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+}
+
+#vn{
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid white
+}
+
+#on:hover{
+
+}
+
+#vn:hover{
+    background-color: white;
+    color: #d0b200;
+
+}
+
+
+.dishes{
+ 
+    height: 200vh;
+    width: 90vw;
+    
+    margin: auto;
+    margin-top: 150px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    background-color: #f8f8f8;
+}
+
+.dish-items{
+    
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+
+
+
+.wcu{
+    height: 50vh;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.wcu>div{
+    width: 27%;
+    height: 90%;
+   
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+#wcu1{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+   
+}
+
+#wcu1>h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #323f4b;
+}
+
+
+#wcu1>p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #5a7184;
+}
+
+#wcu1>img{
+    height: 90px;
+}
+
+
+.dish-items{
+    width: 22vw;
+    height:48vh ;
+    display: flex;
+   flex-direction: column;
+   
+   
+   
+
+}
+
+.dish-items>img{
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+.dish-items>h3,.dish-items>a{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dish-items>a{
+    font-size: 13px;
+    color: #d0b200;
+}
+
+.fresh-container{
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(14, 219, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+
+}
+
+
+.fresh{
+    width: 80vw;
+    height: 40vh;
+    background-color: red;
+    margin: auto;
+
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#f1{
+    width:35% ;
+    height: 90%;
+    background-color: pink;
+}
+
+#f2{
+    width:65% ;
+    height: 90%;
+    background-color: yellow;
+
+}
+
